@@ -4,8 +4,8 @@ use App\Http\Controllers\Controller as Controller;
 
 class HomeController extends Controller {
 
-    public function index($name)
+    public function index()
     {
-        return view('home.index', ['name' => $name]);
+        return view('home.index');
     }
 }
